@@ -1,0 +1,100 @@
+.backButton{
+    float : right;
+    padding : 8px;
+    border : 2px solid #0c6980;
+    margin-right : 50px;
+    
+
+}
+.uploadN{
+    border : 3px solid #0c6980;
+    padding : 4px;
+    
+}
+.uploadR{
+    outline : 3px solid #0c6980;
+    margin-top : 9px;
+    
+}
+.Nav{
+    display : flex;
+    flex-direction: row;
+}
+.perDocs{
+    
+    outline : 2px solid #0c6980;
+    margin-top : 5px;
+    width : 20%;
+    margin-left : 10px;
+}
+.sendDocs{
+    border : 2px solid #0c6980;
+    margin-left : 12px;
+    margin-top: 4px;
+    
+}
+.sendDocs1{
+    border : 2px solid #0c6980;
+    margin-left : 12px;
+    margin-bottom : 9px;
+    
+}
+.docsLay{
+    display : flex;
+    
+}
+.approvalDescr{
+  outline : 3px solid #0c6980;
+  width : 80%;
+  margin-top:10px;
+}
+.approvalLocation{
+    outline : 3px solid #0c6980;
+    width : 80%
+}
+.approvalOwner{
+    outline : 3px solid #0c6980;
+    width : 80%
+}
+.approvalStartDate{
+    outline : 3px solid #0c6980;
+    width : 80%
+
+}
+.approvalEndDate{
+    outline : 3px solid #0c6980;
+    width : 80%
+
+}
+.approvalRevisitDate{
+    outline : 3px solid #0c6980;
+    width : 80%  
+}
+.approvalNotes{
+    outline : 3px solid #0c6980;
+    width : 80%
+}
+.notStarted{
+    background-color : red;
+    color : white;
+}
+.revisitDue{
+    background-color : grey;
+    color : white;
+}
+.Complete{
+    background-color : rgb(18, 187, 206);
+    color : white;
+}
+.inProgress{
+    background-color : rgb(88, 241, 88);
+    color : white;
+}
+.onHold{
+    background-color : rgb(219, 245, 106);
+    color : white;
+}
+.approvalButton{
+    padding : 4px;
+    outline : 3px solid #0c6980;
+}

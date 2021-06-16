@@ -1,0 +1,68 @@
+.tarif{
+    width: 600px;
+    /* border: 1px solid gray; */
+    table-layout: fixed;
+    margin-bottom: 30px;
+    margin-top:50px;
+    margin-left: -21px;
+}
+.thead{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+    width: 20%;
+}
+.array{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    height: 50px;
+    
+}
+#ProductsPm{
+    margin-top: -90px;
+}
+
+.pinn{
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    margin-left: 7px;
+    background-color: #05495e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: -5px;
+}
+.pinn:hover{
+ 
+    border: 1px solid gray;
+    color: #05495e;
+    background-color: white;
+  
+}
+.pinn:focus{
+    background-color: #05495e;
+    color: white;
+    border: 1px solid white;
+}
+.buss{
+    margin-left: 10px;
+    /* margin-bottom: 30px; */
+}
+.contains{
+    width: 100%;
+    display: flex;
+    background-color: #c4dbe0;
+    margin-top: -300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.twoo{
+ flex-grow: 1;
+}
+.twoo-1{
+    background-color: #05495e;
+}
+

@@ -1,0 +1,90 @@
+
+.titleee{
+    margin-top: 20px;
+    color: rgb(61, 61, 61);
+}
+.UsersPart{
+    display : flex;
+    flex-direction: row;
+    margin-top : 30px;
+    margin-left : 30px;
+}
+.UsersPart2{
+    display : flex;
+    flex-direction: row;
+    margin-top : 30px;
+    margin-left : 30px;
+}
+.TechnicalPart{
+    display : flex;
+    flex-direction: row;
+    margin-left : 10px;
+    padding :20px;
+    border-top : 3px solid gray;
+    width : 96%;
+
+}
+
+.tableHead{
+    margin-left : 11%;
+}
+.UserSearch{
+    margin-left : 8px;
+    padding :8px;
+    outline : 3px solid #0c6980;
+
+}
+
+.Roles{
+    outline : 3px solid #0c6980;
+    width : 30%;
+    margin-left : 70px;
+    padding : 1px;
+
+}
+.upload{
+    border : 2px solid #0c6980;
+    padding : 4px;
+    color : gray;
+    margin-top : 6px;
+    
+}
+.upload2{
+  margin-left : 12px;
+  padding : 7px;
+  width : 10%;
+  color : gray;
+  background-color: white;
+}
+.upload3{
+    margin-left : 12px;
+    border : 3px solid #0c6980;
+    padding : 7px;
+    width : 10%;
+    color : gray;
+    background-color: white
+}
+  
+.upload4{
+    margin-left : 12px;
+    border : 2px solid #0c6980;
+    padding : 7px;
+    width : 10%;
+    color : gray;
+    background-color: white
+}
+  
+.searchButton{
+    padding:14px;
+    background-color : #0c6980;
+}
+.searchButton1{
+    padding:14px;
+    background-color : #0c6980;
+    margin-left: 6px;
+
+}
+.searchIcon{
+    color : white;
+    zoom : 1.4;
+}

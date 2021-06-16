@@ -1,0 +1,91 @@
+*{
+  margin : 0;
+  padding : 0;
+  border : 0;
+
+}
+.addButton{
+  margin-top: 30px;
+  padding :  10px;
+  background-color :  #0c6980;
+  color : white;
+}
+.pproducttable{
+  border-top : 2px solid gray;
+  border-bottom : 2px solid gray;
+  color : gray;
+}
+.pproductthead{
+  padding : 8px;
+  margin-left: 90px;
+}
+.addTable{
+    margin-top: 5px;
+    margin-left : 50%;
+    zoom : 1.5;
+  }
+
+  .addTable1{
+    margin-top: 5px;
+    margin-left : 70%;
+    zoom : 1.5;
+  }
+
+.NameTable{
+   outline : 2px solid #0c6980; 
+   width : 40%
+  }
+.OverProduction{
+  display : flex;
+  flex-direction: row;
+}
+.MainTable{
+  margin-top : 20px;
+}
+.checkBox{
+  width: 70px;
+  height: 30px;
+  display: block;
+  margin-top: 2px;
+}
+.labelStyle{
+  margin-top : 7px;
+  margin-left: 1px;
+}
+.textStyle13{
+  width : 30%;
+  outline : 3px solid #0c6980;
+  margin-left : 120px;
+}
+.textStyle14{
+  width : 30%;
+  outline : 3px solid #0c6980;
+  margin-left :  50px;
+}
+.textStyle15{
+  width : 30%;
+  outline : 3px solid #0c6980;
+  margin-left :  37px;
+}
+.textStyle16{
+  width : 30%;
+  outline : 3px solid #0c6980;
+  margin-left :  37px;
+}
+.textStyle17{
+  width : 30%;
+  outline : 3px solid #0c6980;
+  margin-left :  58px;
+}
+.title{
+  margin-top : 7px;
+  margin-left: 1px;
+}
+
+.save{
+  background-color: #0c6980;
+  width : 20%;
+  color : white;
+  padding : 8px;
+  margin-left: 25px;
+}

@@ -1,0 +1,12 @@
+.statusstate{
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason{
+    height: 35px;
+    border: 1px solid black;
+}

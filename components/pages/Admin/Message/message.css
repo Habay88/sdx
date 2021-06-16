@@ -1,0 +1,293 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.inbox-list{
+    width: 265px;
+    height: 81vh;
+    border-right: 3px solid gray;
+    margin-top: 0px;
+    overflow-y : auto;
+    margin-left: 5px;
+    position: fixed;
+}
+.durk{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+.msgit{
+    height: 40px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 14px;
+    border: 2px solid #0c6980;
+    width: 150px;
+    font-weight: bold;
+    background-color: #0c6980;
+    color: white;
+}
+.msgit:hover{
+    background-color: white;
+    color: #0c6980;
+}
+.search{
+    width: 95%;
+    height: 28px; 
+    border: 1px solid gray;
+    margin-left: 5px; 
+    /* text-align: center; */
+}
+.inn:hover{
+    background-color: gray;
+}
+.inn:focus{
+    outline: none;
+}
+.look{
+    border: none;
+    width: 85%;
+}
+.look:focus {
+    outline: none;
+  }
+  .rule{
+      width: 100%;
+      border: 1px solid gray; 
+      margin-top: 10px;
+  }
+  .message{
+      margin-left: 10px;
+      /* width: 96%; */
+  }
+  .header{
+     
+      
+  }
+  .adjust{
+      float: right;
+      display: flex;
+      flex-direction: row;
+      margin-top: -38px;
+      margin-right: 15px;
+  }
+  .circle{
+      height: 30px;
+      width: 30px;
+      border-radius: 20px;
+      border: 1px solid #0c6980;
+      text-align: center;
+      margin-left: 20px;
+      background-color: #0c6980;
+  }
+  .divide{
+      width: 100%;
+      height: 40px;
+      border-top: 1px solid gray;
+      margin-top: 20px;
+      text-align: center;
+  }
+  .subject{
+      margin-top: 5px;
+  }
+ 
+  .looker{
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    height: auto;
+}
+.looker:focus {
+    outline: none;
+  }
+  .msg-input{
+      margin-top: 15px;
+      
+  }
+  .chat{
+      height: 50px;
+      border: 2px solid #0c6980;
+      margin-top: 10px;
+      margin-right: 2px;
+      background-color: white;
+  }
+  .namme{
+     font-weight: 400;
+     font-size: 16px; 
+     color: black;
+     margin-left: 5px;
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .convo{
+    height: 300px;
+    border-bottom: 1px solid gray;
+    width: 100%;   
+    position: relative;
+}
+.msgbox{
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.inbox-text{
+    position: absolute;
+	bottom: 0;
+	left: 0;  
+    color: rgb(70, 68, 68);
+    width: 80%;
+  
+}
+.chat:hover{
+    background-color: rgb(245, 241, 241);
+}
+.bod{
+    font-weight: normal;
+    font-size: 14px; 
+    color: rgb(61, 60, 60);
+}
+.conversation{
+    margin-left: 2px;
+}
+.customButton{
+    background-color: #0c6980;
+    border-radius: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.customButton span{
+    margin-left: -8px;
+    margin-top: -12px;
+    position: absolute;
+}
+.customButton:hover{
+    background-color: #69bfd5;
+}
+.customButton:focus{
+    outline: none;
+}
+
+.attachButton{
+    background-color: #0c6980;
+    border-radius: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.attachButton span{
+    margin-left: -10px;
+    margin-top: -13px;
+    position: absolute;
+}
+.attachButton:hover{
+    background-color: #69bfd5;
+}
+.attachButton:focus{
+    outline: none;
+}
+.onmessage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.infoss{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.newmsg{
+    width: 85%;
+    height: 40px;
+    border: 1px solid gray;
+}
+.newmsgg{
+    width: 35%;
+    height: 40px;
+    border: 1px solid gray;
+}
+.newmsgg:focus{
+    outline: none; 
+}
+.newmsg:focus{
+    outline: none;
+}
+.bode{
+    width: 85%;
+    height: 130px;
+    border: 1px solid gray;
+}
+.bode:focus{
+    outline: none;
+}
+.pins{
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    margin-left: 7px;
+    background-color: #0c6980;
+    /* background-color: #06045f; */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: -5px;
+}
+.pins:hover{
+ 
+    border: 1px solid gray;
+    color: #0c6980;
+    background-color: white;
+  
+}
+.pins:focus{
+    background-color: #0c6980;
+    color: white;
+    outline: none;
+}
+
+.attachdoc{
+    color: gray;
+    margin-left: 10px;
+    background-color: #f6fdff;
+    margin-top: -10px;
+}
+
+.attachdoc:focus{
+    outline: none;
+}
+
+.pinedd{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    margin-left: 7px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: -5px;
+}
+.pinedd:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+  
+}
+.pinedd:focus{
+    background-color: #2eb5e0;
+    color: white;
+    border: 1px solid white;
+}
+
+

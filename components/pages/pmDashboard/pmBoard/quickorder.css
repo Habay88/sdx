@@ -1,0 +1,17 @@
+.buttonStyle{
+    width: 120px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(179, 184, 184, 0.616);
+}
+
+.buttonStyle:hover{
+    background-color: rgb(179, 184, 184);
+}

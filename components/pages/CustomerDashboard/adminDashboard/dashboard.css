@@ -1,0 +1,273 @@
+.dashh{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+.dash-item1{
+    width: 30%;
+    min-height: 82vh;
+  
+}
+.barr{
+    width: 330px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.barr input{
+    width: 92%;
+    border: none;
+    height: 35px;
+}
+.barr input:focus{
+ outline: none;
+}
+.afrika{
+    width: 385px;
+    height: 330px;
+    border: 3px solid #0c6980;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.regg{
+    width: 110px;
+    height: 90px;
+    border: 1px solid #0c6980;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #00C49F;
+    
+}
+.regg:hover{
+    width: 120px;
+    height: 100px;
+}
+.reg1{
+    background-color: #FFBB28;
+}
+.reg2{
+   
+    background-color: rgb(112, 8, 83);
+}
+.reg3{
+    background-color: #4449cc;
+}
+.reg4{
+    background-color: rgb(170, 148, 19);
+}
+.reg5{
+    background-color: #FF8042;
+}
+.reg6{
+    background-color: rgb(201, 13, 38);
+}
+.reg7{
+    background-color: #2ebf0a;
+}
+.regg p{
+    text-align: center;
+    color: rgb(245, 233, 233);
+    margin-top: 17px;
+}
+.regg span{
+    font-weight: bold;
+}
+.afrika button{
+    width: 110px;
+    height: 90px;
+    border: none;
+    background-color: white;
+   
+}
+.dash-item2{
+    width: 42%;
+    height: 62vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.regpro{
+    margin-top: 110px;
+}
+.piee{
+    width: 60%;
+    height: 280px;
+   
+}
+.peanut{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #0c6980;
+    height: 285px;
+}
+.lalaa{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.lala{
+    display: flex;
+    flex-direction: column;
+    
+}
+.lala p{
+    color: black;
+    margin-top: -7px;
+}
+.doo{
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #0088FE;
+    margin-top: 5px;
+}
+
+.dooo{
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #00C49F;
+    margin-top: 5px;
+}
+.doooo{
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #FFBB28;
+    margin-top: 5px;
+}
+.dooooo{
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #FF8042;
+    margin-top: 5px;
+}
+.very{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 3px;
+}
+.very p{
+    color: rgb(53, 52, 52);
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dash-item3{
+    width: 25%;
+    height: 78vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.ddash-item1{
+    width: 90%;
+    height: 215px;
+    border: 3px solid #0c6980;
+    margin-left: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.dash-item3 h5{
+    margin-top: 20px;
+    margin-left: 13px;
+
+}
+.ddash-item2{
+    width: 90%;
+    height: 215px;
+    border: 3px solid #0c6980;
+    margin-left: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.recent{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.avar{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.avar p{
+    color: #0c6980;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.dassh-time{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.ddash-time p{
+ color: rgb(8, 90, 104);
+ font-size: 12px;
+ margin-left: 15px;
+ margin-top: 10px;
+ font-weight: bold;
+ 
+}
+
+.ddash-time span{
+    color: rgb(8, 90, 104);
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+   }
+
+   .daash-timee{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 15px;
+   
+}
+
+.ddash-timee{
+    width: 140px;
+    height: 40px;
+    border: 2px solid rgb(8, 90, 104);
+    margin-top: 10px;
+}
+
+
+.ddash-timee p{
+ color: rgb(8, 90, 104);
+ font-size: 11px;
+ text-align: center;
+ font-weight: bold;
+ 
+}
+
+.ddash-timee span{
+    color: rgb(8, 90, 104);
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+   }
+
+   .linerr{
+       margin-left: 10px;
+       width: 5px;
+       height: 97%;
+       border-right: 3px solid rgb(8, 90, 104);
+       margin-top: 2px;
+   }
+
+
+
+

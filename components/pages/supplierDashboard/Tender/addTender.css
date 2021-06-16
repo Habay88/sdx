@@ -1,0 +1,21 @@
+.backButtonn{
+    float : right;
+    padding : 9px;
+    background-color:  white;
+    color : #0c6980;
+    border : 3px solid #0c6980;
+    margin-top:20px;
+    margin-right : 40px;
+    width: 5%;
+ } 
+.tenderButton{
+    padding : 4px;
+    background-color:  white;
+    color : #0c6980;
+    border : 3px solid #0c6980;
+    width: 45%;
+}
+ 
+
+
+

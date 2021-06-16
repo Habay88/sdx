@@ -1,0 +1,150 @@
+.Companydiv1{
+  display : flex;
+  flex-direction: row;
+  margin-top : 30px;
+}
+.Companydiv2{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.Companydiv3{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.Companydiv4{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.Companydiv5{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.Companydiv6{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.Companydiv7{
+  display : flex;
+  flex-direction: row;
+  margin-top : 40px;
+}
+.labelStyle{
+  margin-top : 7px;
+  margin-left: 22px;
+
+}
+.textareaStyle{
+  width : 30%;
+  margin-left : 60px;
+  border : 3px solid #0c6980;
+}
+
+.continue{
+  background-color: #0c6980;
+  color : white;
+  width : 15%;
+  padding : 8px;
+  margin-top : 40px;
+  margin-left : 27px;
+  border: 1px solid #0c6980;
+}
+.continue:hover {
+  background-color : rgb(240, 230, 230);
+  color : rgb(12, 105, 128);
+  border: 1px solid #0c6980;
+}
+.textStyle1{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  50px;
+  padding: 5px 8px;
+}
+.textStyle2{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  48px;
+  padding: 5px 8px;
+}
+.textStyle3{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  41px;
+  padding: 5px 8px;
+}
+.textStyle4{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  18px;
+  padding: 5px 8px;
+}
+.textStyle5{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  76px;
+  padding: 5px 8px;
+}
+.textStyle6{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  98px;
+  padding: 5px 8px;
+}
+.textStyle7{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  118px;
+  padding: 5px 8px;
+}
+.textStyle8{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  15px;
+  padding: 5px 8px;
+}
+.textStyle9{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  67px;
+  padding: 5px 8px;
+}
+.textStyle10{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  104px;
+  padding: 5px 8px;
+}
+.textStyle11{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  67px;
+  padding: 5px 8px;
+}
+.textStyle12{
+  width : 30%;
+  border : 3px solid #0c6980;
+  margin-left :  42px;
+  padding: 5px 8px;
+}
+.general{
+  margin-top:10px;
+}
+.save{
+  background-color: #0c6980;
+  width : 10%;
+  color : white;
+  padding : 8px;
+  margin-left: 50px;
+}
+.back{
+  background-color: #0c6980;
+  width : 10%;
+  color : white;
+  padding : 8px;
+  float : center;
+  margin-left: 50px;
+}

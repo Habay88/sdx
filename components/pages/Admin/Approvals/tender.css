@@ -1,0 +1,224 @@
+.titleee{
+    margin-top: 20px;
+    color: rgb(61, 61, 61);
+}
+.trr{
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-collapse: collapse;
+    color: gray;
+    text-align: center;
+    background-color: white;
+}
+.headd{
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    border-collapse: collapse; 
+    color: rgb(92, 90, 90);
+    font-size: 16px;
+    font-weight: normal;
+    height: 45px;
+}
+.barrr{
+    width: 330px;
+    height: 45px;
+    border: 3px solid #0c6980;
+}
+.barrr input{
+  width: 86%;
+  border: none;
+  height: 40px;
+ margin-left: 5px;
+ margin-right: 10px;
+}
+.barrr input:focus{
+    outline: none;
+}
+.reason:focus{
+    outline: none;
+}
+.addtender{
+    color: rgb(65, 63, 63);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.rulerrs{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 95%;
+    height: 50px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+.tabb{
+    width: auto;
+    margin-left: 25px;
+    background-color: white;
+    color: rgb(31, 30, 30);
+    font-size: 17px;
+    margin-top: 10px;
+}
+.tabb:hover{
+    color: #0b586b;
+    font-weight: bold;
+}
+.tabb:focus{
+    color: #15738a;
+    outline: none;
+    font-weight: bold;
+}
+.parag{
+    color: rgb(65, 63, 63);
+    margin-top: 20px;
+    font-size: 15px;
+}
+.refno{
+    width: 300px;
+    height: 40px;
+    border: 3px solid gray;
+    margin-top: -19px;
+    
+}
+.refno:focus{
+    border: 3px solid gray;   
+    outline: none;
+}
+
+.refnoo{
+    width: 300px;
+    height: 160px;
+    border: 3px solid gray;
+    margin-top: -9px;
+}
+.refnoo:focus{
+    border: 3px solid gray;   
+    outline: none;
+}
+
+.reff{
+    width: 300px;
+    border: 3px solid gray;
+    margin-top: -9px;
+}
+.reff:focus{
+    border: 3px solid gray;   
+    outline: none;
+}
+.kont{
+    width: 120px;
+    height: 40px;
+    background-color: #0c6980;
+    color: white;
+}
+.kont:hover{
+    background-color: white;
+    color: #0c6980;
+    border: 3px solid #0c6980;
+}
+
+.refss{
+    width: 300px;
+    height: 40px;
+    border: 3px solid gray;
+    
+}
+.refss:focus{
+    border: 3px solid gray;   
+    outline: none;
+}
+.secc{
+    background-color: white;
+    border: none;
+}
+.secc:focus{
+    outline: none;
+}
+.bossdown{
+    margin-bottom: 30px;
+    width: 55%;
+    border-right: 3px solid gray;
+}
+.rock{
+    display: flex;
+    flex-direction: row;
+}
+.bossup{
+    margin-left: 50px;
+}
+.arc{
+    margin-top: 10px;
+    width: 500px;
+    height: auto;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+}
+.arc1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.dname{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.dtable{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.tnamee{
+  margin-top: 15px;  
+  font-size: 17px;
+}
+.kontt{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: #0c6980;
+    border: 3px solid #0c6980;
+}
+.kontt:hover{
+    background-color: #0c6980;
+    color: white;
+    border: 3px solid #0c6980;
+}
+
+.trrr{
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-collapse: collapse;
+    color: #15738a;
+    text-align: center;
+    background-color: white;
+    height: 55px;
+}
+.loll:focus{
+    outline: none;
+}
+.buttonDash{
+    background-color : #0c6980;
+    color : white;
+    padding : 10px;
+    
+}
+
+.buttonDash1{
+    background-color : #0c6980;
+    color : white;
+    padding : 10px;
+    margin-left: 15px;
+}
+.headdd{
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    border-collapse: collapse; 
+    color: rgb(92, 90, 90);
+    font-size: 16px;
+    font-weight: normal;
+    height: 55px;
+}

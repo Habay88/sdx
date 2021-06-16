@@ -1,0 +1,985 @@
+*{
+margin : 0;
+padding: 0;
+border : 0;
+}
+#stepOne{
+ display : flex;
+ flex-direction: row;
+ color : black;
+ margin-top : 5px;
+ margin-left : 10px;
+ font-family:  'Kaushan Script', cursive;
+
+}
+#horizontal-line{
+    width: 20%;
+    border-top: 1px solid #1A85FD;
+    margin-left : 10px;
+    margin-top : 15px;
+    
+}
+#navRegister{
+margin-left : 4px;
+margin-top: 7px;
+font-size: 14px;
+font-style: normal;
+
+}
+
+
+#stepOneShapeRegister{
+    border : 1px solid #73acbd;
+    width : 50px;
+    height : 30px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+#stepOneShapeEmail{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeLogin{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeDetails{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeProducts{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapePayment{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeDocuments{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeApproval{
+    border : 1px solid #73acbd;
+    width : 48px;
+    height : 32px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#stepOneShapeSupplierID{
+    border : 1px solid #73acbd;
+    width : 32px;
+    height : 33px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+#mainHeader{
+background-color: white;
+padding : 25px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+#container{
+    width: 100%;
+    margin : auto;
+    overflow: hidden;
+}
+#navBar{
+    color : white;
+    font-family: sans-serif;
+    display : flex;
+    flex-direction: row;
+    
+}
+#user{
+ 
+    box-sizing: border-box;
+    float:right;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    background-color: #73acbd;
+    margin-right: 20px;
+    
+
+}
+#userLabel{
+    
+    padding :5px;
+    font-family:  'Kaushan Script', cursive;
+}
+#submit{
+    text-align: center;
+    float:right;
+}
+#homeTitle{
+    margin-top: 20;
+    font-family:  'Kaushan Script', cursive;
+}
+#sideBar{
+   float : left;
+   border-radius: 3px solid black;
+   padding : 30px;
+   height : auto;
+   width : 50%;
+   box-sizing: border-box;
+  }
+#emailHeader{
+   font-size : 30px;
+   font-family:  'Kaushan Script', cursive;
+  }
+  #emailword{
+    font-family:  'Kaushan Script', cursive;
+    font-size : 14px;
+  }
+#RegisterBar{
+    float : right;
+    width: 50%;
+    padding :30px;
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    
+}
+#formStyle{
+    width : 50%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: capitalize;
+}
+#formStylee{
+    width : 50%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+#formStyleSegment{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top :8px;
+}
+#formStyleSegmentIndustry{
+    width : 50%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top :8px;
+}
+#formStyleFamily{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;  
+}
+#formStyleClass{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;  
+
+}
+
+
+
+hr.ProductLine{
+    border-top :1px solid #73acbd;
+    width : 70%;
+}
+#PaymentHeader{
+    font-family: 'Kaushan Script', cursive; 
+    margin-left : 30px;
+}
+#PaymentHeaderChoose{
+    font-family: 'Kaushan Script', cursive; 
+    margin-left : 30px;
+    font-size : 19px;
+}
+#PaymentSubContainers1{
+    float : left;
+    width: 60%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 37px;
+   
+}
+#PaymentSubContainersPm1{
+
+    float : left;
+    width: 70%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 47px;
+
+}
+#CompaniesStyleBox{
+    float : left;
+    width: 35%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 47px;
+}
+#CompaniesStyleBox2{
+    
+    width: 35%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 47px;
+}
+#CompaniesStyleBox3{
+    float : right;
+    width: 30%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    
+}
+#buttonStylePaymentUpload{
+    width : 60%;
+    outline : 2px solid #73acbd;
+    margin-left : 19%;
+    padding :10px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#buttonStylePaymentUpload:hover{
+    background-color: #077b9e;
+    color: white;
+}
+#PaymentBillingContainer{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding : 10px;  
+    margin-top: 15px;
+    width: 300px;
+}
+#PaymentSubContainerButton{
+    margin-top : 15px;
+}
+#PaymentSubContainers2{
+    float : right;
+    width: 40%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 10px;
+   
+}
+#PaymentSubContainers2Pm{
+    float : right;
+    width: 30%;
+    padding :15px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 10px;
+}
+#PaymentSubSubContainer1{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding : 10px;  
+}
+#PaymentSubSubContainer2{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding : 10px;  
+    margin-top: 15px;
+}
+#PaymentSubSubContainerSummary{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding : 15px; 
+    width: 300px;  
+}
+
+#buttonStyle{
+    width : 50%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#buttonStylePayment{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    float : right;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#PaymentLogout{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right;
+}
+#RegisterBarPayment{
+    float : right;
+    width: 50%;
+    padding :30px;
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+#DocumentBack{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right;
+}
+#DocumentLogout{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right;
+}
+#ApprovalButtonBack{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right; 
+}
+
+#ApprovalButtonLogout{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right; 
+}
+#TableApprovalContainer{
+    width : 100%;
+    margin-top: 80px;
+
+}
+#CompleteRegContainer{
+    width : 100%;
+    
+}
+#CompleteRegCompany{
+    display : flex;
+}
+#CompleteRegCompanyFormStyle{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 4px;
+    font-family: 'Kaushan Script', cursive;  
+    margin-left: 23px;
+}  
+#CompleteRegSSFormStyle{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 4px;
+    font-family: 'Kaushan Script', cursive;  
+    margin-left: 50px;
+}  
+#CompleteRegPasswordFormStyle{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 4px;
+    font-family: 'Kaushan Script', cursive; 
+    margin-left: 20px; 
+}  
+#RegisterationCompleteButton{
+
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+
+}
+
+#ContactUs{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :10px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+
+
+#DocumentContinue{
+    width : 80%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    margin-top: 20px;
+    color: #0d3744;
+    font-weight: bold;
+}
+#DocumentContinue:hover{
+    background-color: #077b9e;
+    color: white;
+}
+#Table{
+    width : 100%;
+    height : auto;
+    margin-top: 50px;
+    margin-left: -3px;
+}
+#DocumentTable{
+    width : 100%;
+    height : auto;
+    border-collapse: collapse;
+}
+#DocumentStatus{
+    width : 100%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right;
+}
+
+
+#DocumentHead{
+    border: 1px solid #73acbd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+#mainChooseCompany{
+    margin-top: -290px;
+}
+#DocumentHeader{
+    font-family: 'Kaushan Script', cursive; ;
+}
+ 
+#registerName{
+    float : right;
+}
+#registerNameAddProduct{
+    float : right;
+    margin-top: -20px;
+}
+#mainAddProduct{
+    margin-top: -95px;
+}
+  tr {
+    background-color: white;
+  }
+
+#PaymentBack{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float :right;
+}
+#buttonStyleEmailVerify{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    color: #73acbd;
+    font-weight: bold;
+}
+#buttonStyleEmailVerify:hover{
+    outline : 2px solid white;
+    background-color: #73acbd;
+    color: white;
+}
+#buttonStylechoose{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#chooseCompany{
+    margin-top : 10px;
+}
+#companySelect{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    width : 100%;
+
+}
+#MarketStyle{
+    width : 40%;
+    
+}
+#MarketContainer{
+    display : flex;
+}
+#CompaniesStyle{
+    width : 40%;
+    margin-left : 15px;
+    color :#73acbd;
+}
+#CompaniesStyleSupplier{
+    width : 30%;
+    margin-left : 15px;
+    color :#73acbd;
+}
+#MarketStyleSupplier{
+    width : 30%;
+    
+}
+#SelectedStyle{
+    width : 100%;
+    margin-top: 37px;
+}
+#SelectedStyleSupplier{
+    width : 30%;
+    margin-top: 1px;
+    margin-left : 30px;
+}
+#MassiveImportStyle{
+    width : 100%
+}
+#formLabelBilling{
+    font-size: 15px;
+    font-family: 'Kaushan Script', cursive;
+}
+#buttonStyleBilling{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    float : center;
+    margin-top : 20px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;  
+}
+#formLabelBillingFloat{
+    font-size: 15px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 80px;
+}
+#billing{
+  
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    width : 85%;
+    padding : 7px;
+}
+#billingPayment{
+    display : flex;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    width : 65%;
+    padding : 10px;
+    margin-left: -20px;
+}
+#UploadContainer{
+    width : 100%
+}
+#ButtonPmUpload{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#ButtonPmUploadContinue{
+    width : 30%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#companyLayout{
+    display : flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top:30px;
+}
+#MassiveImportStyle{
+width : 100%;
+margin-top:30px;
+}
+#ProductBack{
+    width : 25%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float : right;
+    
+}
+#formStyleProductClass{
+    width : 40%;
+    outline : 2px solid #73acbd;
+    padding : 7px;
+    font-family: 'Kaushan Script', cursive;  
+}
+#ProductLogout{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :4px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+    float: right;
+    margin-top: -30px;
+}
+#chooseCompanies{
+
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+}
+#chooseCompaniesHeader{
+    margin-top : 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 27px;
+}
+#buttonStyleAdd{
+    width : 10%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#buttonStyleSub{
+    width : 10%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#buttonStyleAdd:hover{
+    background-color: #73acbd;
+    color: white;
+}
+#buttonStyleSub:hover{
+    background-color: #73acbd;
+    color: white;
+}
+#buttonStyleAddProducts{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white;
+}
+#buttonStyleClose{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+}
+#buttonStyleDetails{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+    margin-top : 20px;
+}
+#buttonStylePerson{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+    margin-top : 20px;
+}
+#buttonLogout{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+    float: right;
+}
+#buttonPersonBack{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+    float: right;
+}
+#buttonStyleLogin{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+  
+}
+
+#buttonStyleRegister{
+    width : 20%;
+    outline : 2px solid #73acbd;
+    margin-left : 1.3px;
+    padding :7px;
+    font-family: 'Kaushan Script', cursive;
+    background: white; 
+    margin-top:20px;
+    color: #077b9e;
+    font-weight: bold;
+}
+#buttonStyleRegister:hover{
+    outline : 2px solid white;
+    background-color: #077b9e;
+    color: white;
+}
+
+#ProductHeader{
+    margin-top : 10px;
+}
+#buttonEmail{
+    width : 10%;
+    padding:10px;
+    background: white;
+    font-family: 'Kaushan Script', cursive;
+    outline : 2px solid black;
+}
+#headText{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+}
+#formLabel{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 15px;
+}
+
+#homePageSubmit{
+    width : 90%;
+    margin-left : 8px;
+    padding : 5px;
+    font-family: 'Kaushan Script', cursive;
+    height: auto;
+    background: white;
+}
+#homepage{
+    
+    display: inline;
+}
+
+#label{
+    color : white;
+    font-size: 12px;
+    margin-left: 8px;
+    font-family: 'Kaushan Script', cursive;
+}
+#homeTitle{
+    font-size: 55px;
+    margin-top : 200px;
+    height: 70%;
+}
+#emailMessage{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#bigline{
+    border-right: 3px solid black;
+    height: 85%;
+    position: absolute;
+    right: 50%;
+}
+#Loginlink{
+    border-right: 3px solid black;
+    height: 86%;
+    position: absolute;
+    right: 50%;
+}
+#check{
+    zoom : 0.9;
+}
+#reset-password{
+    font-size: 15px;
+    text-decoration: none;
+    color : red;
+    margin-left: 70px;
+}
+#tab-construct{
+    margin-top : -10px;
+}
+#companyDetailsHeader{
+    margin-top : 20px;
+}
+#homePage{
+    font-size: 12px;
+    text-decoration: none;
+    color : black;
+}
+#homePage:hover{
+    color : #73acbd;
+}
+#reset-password:hover{
+ color : #73acbd;
+}
+#loginPart{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+}
+#emailVerify{
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px;
+}
+#checkRemember{
+    font-size: 15px;
+    margin-left: 10px;
+}
+#mainFooter{
+    background: #73acbd;
+    margin-top: 80px;
+    padding:20px;
+    margin-bottom: none;
+}
+#signUp{
+    font-size: 12px;
+    text-decoration: none;
+    color : black;
+}
+#addProductLinkStyle{
+    font-size: 17px;
+    text-decoration: none;
+    color : black;
+    
+}
+
+#signUp:hover{
+    color : #73acbd
+}
+
+#footerTag{
+    text-align: center;
+    color : rgb(38, 26, 26);
+    font-family: 'Kaushan Script', cursive;
+}
+
+@media screen and (max-width : 950px){
+    #homeTitle{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width : 767px){
+    #homeTitle{
+        font-size : 33px;
+    }
+
+}
+@media screen and (max-width : 600px){
+
+    #homeTitle {
+        font-size : 23px;
+    }
+}
+
+@media screen and (max-width : 440px){
+
+    #homeTitle {
+        font-size : 20px;
+    }
+}
+@media screen and (max-width : 390px){
+
+    #homeTitle {
+        font-size : 16px;
+    }
+}
+
+
+@media screen and (max-width : 290px){
+
+    #homeTitle {
+        font-size : 21px;
+    }
+}
+.backed{
+    width: 90px;
+    height: 35px;
+    outline : 2px solid #1185a9;
+    color: #077b9e;
+    margin-left: 10px;
+}
+.backed:hover{
+    outline : 2px solid #1185a9;
+    background-color: #077b9e;
+    color: white;
+}
+.summary{
+    color:rgb(60, 58, 58);
+    
+}
+#uploadButton{
+    outline : none;
+    background-color: white;
+    color: #077b9e;
+    font-weight: bold;
+}
+#uploadButton:hover{
+    color: #0d3744;
+}
+.listItems{
+    width: 240px;
+    height: auto;
+    border: 1px solid #077b9e;
+    float: right;
+}

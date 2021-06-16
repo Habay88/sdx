@@ -1,0 +1,31 @@
+.backButton{
+    float : right;
+    padding : 8px;
+    border : 2px solid #0c6980;
+    margin-right : 50px;
+    
+
+}
+.firstName{
+    margin-left: 60px;
+    outline: 2px solid #0c6980;
+    padding :7px;
+    width : 30%;
+}
+.firstNameLabel{
+    margin-left: 60px;
+    color :rgb(61, 61, 61)
+}
+.rolesOptions{
+    margin-top : 2px;
+    padding :4px;
+    outline: 2px solid #0c6980;
+    margin-left: 60px;
+    width : 30%;
+    padding :7px;
+}
+.upload{
+    border : 2px solid #0c6980;
+    padding : 8px;
+    margin-left: 60px;
+}

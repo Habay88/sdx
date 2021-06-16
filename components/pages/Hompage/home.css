@@ -1,0 +1,139 @@
+.navv{
+    height: 120px;
+    width: 100%;
+    background-color: #73acbd;
+    /* background-color: white; */
+    /* align-items: center; */
+}
+.img{
+    width: 230px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.error{
+    color: rgb(247, 9, 9);
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.login{
+    float: right;
+    margin-right: 15%;
+    margin-top: 20px;
+}
+.username{
+    width: 220px;
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid rgb(13, 60, 61);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.username:focus{
+    outline: none;
+}
+#loginn{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    margin-left: 7px;
+    border: 1px solid gray;
+    color: #2eb5e0;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: -5px; 
+}
+#loginn:hover{
+    background-color: #2eb5e0;
+    color: white;
+    border: 1px solid white;
+  
+}
+#loginn:focus{
+    background-color: #2eb5e0;
+    color: white;
+    border: 1px solid white;
+}
+.pin{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    margin-left: 7px;
+    border: 1px solid gray;
+    color: #2eb5e0;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: -5px;
+}
+.pin:hover{
+    background-color: #2eb5e0;
+    color: white;
+    border: 1px solid white;
+  
+}
+.pin:focus{
+    background-color: #2eb5e0;
+    color: white;
+    border: 1px solid white;
+}
+p{
+    color: white;
+    font-size: 18px; 
+  
+}
+.forgot{
+    color: #17343c;
+}
+.register{
+    color: #1d5564;
+    margin-left: 10px;
+}
+.register:hover{
+    color:rgb(13, 60, 61);
+    
+}
+.forgot:hover{
+    color:rgb(13, 60, 61)
+}
+.sup{
+    width: 87%;
+    height: 450px;
+    margin-top: 45px;
+    margin-left: 6%;
+}
+.para{
+    margin-left: 6%;
+    width: 87%; 
+    color: rgb(38, 37, 37);
+    font-size: 16px;
+}
+.gain{
+    margin-left: 6%;
+    color: #00a8a8; 
+}
+.list{
+    margin-left: 6%;
+    color: gray;
+    font-size: 18px;
+}
+.foot{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #0c6980;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+.create{
+    margin-left: 12px;
+}
